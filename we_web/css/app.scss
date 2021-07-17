@@ -83,7 +83,7 @@ body {
   }
 
   .overlay a {
-    padding: 1em 0 1em 1em;
+    padding: 1em;
     text-decoration: none;
     font-size: 1.3em;
     color: #818181;
@@ -192,6 +192,11 @@ section {
   }
 }
 
+@media only screen and (max-width: 550px) {
+  #tagline {
+    width: unset;
+  }
+}
 @media only screen and (min-width: 670px) {
   section {
     .btn-wrapper {
@@ -270,7 +275,7 @@ ul.features-list {
 
 .wrapper {
   max-height: auto;
-  margin: 80px 0;
+  margin: 80px 0.5em;
   display: flex;
   overflow-x: auto;
 }

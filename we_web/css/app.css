@@ -201,6 +201,12 @@ section .hero-secondary .illustration {
   width: 400px;
 }
 
+@media only screen and (max-width: 550px) {
+  #tagline {
+    width: unset;
+  }
+}
+
 @media only screen and (min-width: 670px) {
   section .btn-wrapper {
     display: -webkit-box;
@@ -281,7 +287,7 @@ ul.features-list li:before {
 
 .wrapper {
   max-height: auto;
-  margin: 80px 0;
+  margin: 80px 0.5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
