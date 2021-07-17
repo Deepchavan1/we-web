@@ -185,11 +185,11 @@ section .btn-wrapper .btn-contact:hover {
 }
 
 section .btn-wrapper .btn-explore {
-  margin: 2vw 30vw;
+  margin: 2vw auto;
 }
 
 section .btn-wrapper .btn-contact {
-  margin: 0vw 30vw;
+  margin: 0vw auto;
 }
 
 section .hero-secondary {
