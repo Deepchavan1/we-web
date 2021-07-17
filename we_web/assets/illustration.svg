@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="497" height="504" viewBox="0 0 497 504">
+  <defs>
+    <filter id="Rectangle_3" x="0" y="0" width="497" height="504" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#9f9fa0"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="illustration-primary" transform="translate(-1168 -321)">
+    <g transform="matrix(1, 0, 0, 1, 1168, 321)" filter="url(#Rectangle_3)">
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" width="479" height="486" rx="15" transform="translate(1 1)" fill="#fafafa"/>
+    </g>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="479" height="56" rx="15" transform="translate(1169 322)" fill="#dbe1f2"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="95" height="23" rx="11.5" transform="translate(1194 340)" fill="#ebafa4"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="35" height="23" rx="11.5" transform="translate(1592 339)" fill="#ebafa4"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="479" height="184" rx="15" transform="translate(1169 624)" fill="#dbe1f2"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="143" height="120" rx="30" transform="translate(1242 448)" fill="#bae2b5"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="141" height="29" rx="10" transform="translate(1475 448)" fill="#f2e9a4"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="141" height="31" rx="10" transform="translate(1475 493)" fill="#9bf2ef"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="141" height="28" rx="10" transform="translate(1475 540)" fill="#bbc2f4"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="271" height="29" rx="8" transform="translate(1356 744)" fill="#e5b8b0"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="86" height="31" rx="8" transform="translate(1228 742)" fill="#e5b8b0"/>
+  </g>
+</svg>
