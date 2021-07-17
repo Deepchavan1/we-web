@@ -405,7 +405,7 @@ ul.features-list {
       margin-top: -18px;
       margin-right: 20px;
       img {
-        width: 20px;
+        width: 0.9em;
       }
 
       h6 {
@@ -414,6 +414,19 @@ ul.features-list {
         margin-left: 4px;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .foot .lower .low-1 {
+    display: block;
+  }
+
+  .foot .lower {
+    text-align: center;
+  }
+  .cr h6 {
+    margin-bottom: 10px;
   }
 }
 

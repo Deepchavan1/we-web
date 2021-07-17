@@ -438,13 +438,25 @@ ul.features-list li:before {
 }
 
 .foot .lower .cr img {
-  width: 20px;
+  width: 0.9em;
 }
 
 .foot .lower .cr h6 {
   font-size: 0.9em;
   font-weight: normal;
   margin-left: 4px;
+}
+
+@media only screen and (max-width: 550px) {
+  .foot .lower .low-1 {
+    display: block;
+  }
+  .foot .lower {
+    text-align: center;
+  }
+  .cr h6 {
+    margin-bottom: 10px;
+  }
 }
 
 .card {
