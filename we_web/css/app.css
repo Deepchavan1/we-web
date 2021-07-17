@@ -669,6 +669,7 @@ ul.features-list li:before {
 @media only screen and (max-width: 600px) {
   section .hero-secondary .illustration {
     width: 200px;
+    margin-top: -5em;
   }
 }
 /*# sourceMappingURL=app.css.map */

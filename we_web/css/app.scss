@@ -187,6 +187,9 @@ section {
     text-align: center;
     .illustration {
       width: 400px;
+
+      @media only screen and (max-width: 550px) {
+      }
     }
     margin-bottom: 4em;
   }
@@ -639,5 +642,6 @@ ul.features-list {
 @media only screen and (max-width: 600px) {
   section .hero-secondary .illustration {
     width: 200px;
+    margin-top: -5em;
   }
 }
